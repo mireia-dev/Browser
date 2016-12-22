@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" media="screen" href="styles.css">
+<meta charset="UTF-8">
+<title>Agregar Dirección</title>
+</head>
+<body>
+<div class="centrarForms">
+    <form class="tabla_form" action="Control" method="POST" name="tabla_form">
+        <ul>
+            <li>
+                <h2>Agregar Dirección</h2>
+            </li>
+            <li><label for="search">Dirección Web: </label>
+                <input type="text" name="url" required/>
+            </li>
+            <li><label for="search">Palabras Clave: </label>
+                <input type="text" name="keywords" required/>
+            </li>
+            <li>
+                <label for="search">Descripción: </label>
+                <input type="text" name="descripcion" required/>
+                <input type="hidden" name="opcion" value="agregar">
+            </li>
+        </ul>
+        <button class="submit" type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>

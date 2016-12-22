@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" media="screen" href="styles.css">
+<meta charset="UTF-8">
+<title>Buscador</title>
+</head>
+<body>
+<div class="centrarForms">
+    <form class="tabla_form" action="Control" method="POST" name="tabla_form">
+        <ul>
+            <li>
+                <h2>Buscador</h2>
+            </li>
+            <li><label for="search">Buscar:</label> <!--<input type="number"-->
+                <input type="text" name="clave" required />
+                <input type="hidden" name="opcion" value="buscar">
+            </li>
+        </ul>
+        <button class="submit" type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
